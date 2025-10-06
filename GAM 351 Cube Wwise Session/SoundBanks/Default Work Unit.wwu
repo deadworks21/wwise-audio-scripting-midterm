@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{976C3FBE-47C9-4FFD-B7EC-E0E323364CBB}" SchemaVersion="132">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{976C3FBE-47C9-4FFD-B7EC-E0E323364CBB}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{BD64EF14-67CF-4418-8E69-5606033A7A1A}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

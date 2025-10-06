@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6F227CD9-76B4-4485-9FFC-9810949CBD32}" SchemaVersion="132">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{6F227CD9-76B4-4485-9FFC-9810949CBD32}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Magic" ID="{1F8951AD-731B-4AB0-8BF9-40FF02C76501}" ShortID="512873069">
+					<ChildrenList>
+						<Event Name="Fire_IceGem_Player" ID="{A5E748FD-7BAA-4EBD-8121-B8B1D672FCB3}">
+							<ChildrenList>
+								<Action Name="" ID="{8EB2D02B-A601-48A9-BBC2-C7A8F15DC87B}" ShortID="337853642">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.4"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="IceGem_Blast" ID="{947A1B2C-A458-4474-91BF-5D12045DCA56}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{BEBE2A18-6BB7-40DE-B254-D44E7C2B6993}" ShortID="755808425">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Gem_Drop" ID="{2B1C32FA-F125-4F0B-88A9-B00D0C08FB38}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{FED660A5-8535-46DA-BF5F-A9741C490AD7}" ShortID="380465034">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.25"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Magic_Whoosh" ID="{318C9CA6-A709-4B19-9E60-D9887DF8375A}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{82A77561-E16A-45A9-88C0-4C50C3616DF9}" ShortID="937835808">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.7"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Magic_Recharge" ID="{BE349622-B424-4BB4-8D75-D876FC8C52E3}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

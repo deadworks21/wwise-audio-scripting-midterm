@@ -1,0 +1,29 @@
+# Wwise generated/build caches
+/GeneratedSoundBanks/
+/.cache/
+/Cache/
+/Temp/
+/Backup/
+/.wwise/
+/SoundbanksInfo/
+
+# Locks and databases
+*.lock
+*.ddb
+*.pdb
+
+# DAW/project temp
+*.peak
+*.tmp
+*.bak
+
+# IDE/project files you don’t want in source
+.vscode/
+.idea/
+
+# OS-specific cruft
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

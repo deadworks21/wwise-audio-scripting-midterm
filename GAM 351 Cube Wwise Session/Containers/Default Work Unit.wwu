@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}" SchemaVersion="132">
+	<Containers>
+		<WorkUnit Name="Default Work Unit" ID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Magic" ID="{17A9C0BB-06BC-405D-A238-6FFCF104C1DE}" ShortID="890683885">
+					<ChildrenList>
+						<PropertyContainer Name="IceGem" ID="{A4D43479-8AC2-4223-993E-80C5DA915A7F}" ShortID="109717528">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="15"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2929EABB-D034-4896-8D3F-7011E874FA4C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A89D068A-BF91-4AD0-9BEE-34729A3F3C44}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<PropertyContainer Name="Gem_Recharge" ID="{3F22543D-009D-4F9F-9CE1-2B57C90A5799}" ShortID="233684441">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{20379716-E541-481C-BE99-87888362E298}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2929EABB-D034-4896-8D3F-7011E874FA4C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A89D068A-BF91-4AD0-9BEE-34729A3F3C44}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Magic_Whoosh" ID="{318C9CA6-A709-4B19-9E60-D9887DF8375A}" ShortID="744797823">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{27A2900C-186A-4012-B2A5-943E417D1D47}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="100"/>
+																	<Property Name="Min" Type="Real64" Value="-50"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2929EABB-D034-4896-8D3F-7011E874FA4C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A89D068A-BF91-4AD0-9BEE-34729A3F3C44}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Gem_Recharge" ID="{FA134B61-C745-450C-B5D7-AEF30634FCCF}">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.36011512306441"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Gem_Recharge.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="306569407"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Gem_Recharge" ID="{FA134B61-C745-450C-B5D7-AEF30634FCCF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Magic_Recharge" ID="{BE349622-B424-4BB4-8D75-D876FC8C52E3}" ShortID="776991638">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{F364AB34-A8FA-42E4-A85A-24EB5641556B}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="150"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2929EABB-D034-4896-8D3F-7011E874FA4C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A89D068A-BF91-4AD0-9BEE-34729A3F3C44}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Gem_Recharge" ID="{285DD246-1C9B-41B6-91EF-40109188EF46}">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="1.36038913312165"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Gem_Recharge.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="898154709"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Gem_Recharge" ID="{285DD246-1C9B-41B6-91EF-40109188EF46}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</PropertyContainer>
+								<RandomSequenceContainer Name="Gem_Drop" ID="{2B1C32FA-F125-4F0B-88A9-B00D0C08FB38}" ShortID="1049712296">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{208D0ABF-ADDC-4AF8-BF48-80236C49D6CC}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="10"/>
+															<Property Name="Min" Type="Real64" Value="-10"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{FA97820E-3997-4D25-B148-5BF8E8C99B14}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2929EABB-D034-4896-8D3F-7011E874FA4C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A89D068A-BF91-4AD0-9BEE-34729A3F3C44}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="Gem_Head" ID="{D6447BA0-817F-4A24-888B-8EAE199FDC8F}" ShortID="50203772">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{155C7FEF-E07E-4E8A-9F41-43F53BC1FF1B}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="150"/>
+																	<Property Name="Min" Type="Real64" Value="-100"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+												<Property Name="Volume" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{F3C7CAFF-A524-4A06-A12A-C0E2DF707AA3}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="5"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2929EABB-D034-4896-8D3F-7011E874FA4C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A89D068A-BF91-4AD0-9BEE-34729A3F3C44}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Gem_Breaking_Head-01" ID="{4C4AB163-5947-460D-9A18-8F1F1E15BA76}" ShortID="853210924">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2929EABB-D034-4896-8D3F-7011E874FA4C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A89D068A-BF91-4AD0-9BEE-34729A3F3C44}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Gem_Breaking_Head-01" ID="{E2267FA9-5283-4E37-99C0-6B6F4F571187}">
+															<Language>SFX</Language>
+															<AudioFile>Gem_Breaking_Head-01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="235092526"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Gem_Breaking_Head-01" ID="{E2267FA9-5283-4E37-99C0-6B6F4F571187}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Gem_Breaking_Head-02" ID="{CCC315F4-A3EC-4EFF-AD36-BDF6025EEC1F}" ShortID="1045173842">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2929EABB-D034-4896-8D3F-7011E874FA4C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A89D068A-BF91-4AD0-9BEE-34729A3F3C44}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Gem_Breaking_Head-02" ID="{3B9C7F1E-2B33-4A20-80DA-2DDEE364FB64}">
+															<Language>SFX</Language>
+															<AudioFile>Gem_Breaking_Head-02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="906808089"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Gem_Breaking_Head-02" ID="{3B9C7F1E-2B33-4A20-80DA-2DDEE364FB64}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Gem_Breaking_Head-03" ID="{2886B283-F1A1-473A-8056-1807ADF6BF71}" ShortID="490592619">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2929EABB-D034-4896-8D3F-7011E874FA4C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A89D068A-BF91-4AD0-9BEE-34729A3F3C44}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Gem_Breaking_Head-03" ID="{2DE723C2-9FBB-4F57-B47A-C0CE14D1CEF7}">
+															<Language>SFX</Language>
+															<AudioFile>Gem_Breaking_Head-03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="952777254"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Gem_Breaking_Head-03" ID="{2DE723C2-9FBB-4F57-B47A-C0CE14D1CEF7}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Gem_Breaking_Head-04" ID="{B80DB5ED-D4E1-4BBD-B37A-3D15F65C5092}" ShortID="203874997">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2929EABB-D034-4896-8D3F-7011E874FA4C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A89D068A-BF91-4AD0-9BEE-34729A3F3C44}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Gem_Breaking_Head-04" ID="{BDA7E49C-A5C6-4A66-B8DB-9FE0C9D00FD6}">
+															<Language>SFX</Language>
+															<AudioFile>Gem_Breaking_Head-04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="803421723"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Gem_Breaking_Head-04" ID="{BDA7E49C-A5C6-4A66-B8DB-9FE0C9D00FD6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Gem_Tail" ID="{81763BCA-E206-4EED-B0D7-142FA331C63E}" ShortID="682338054">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{2C565E98-FD62-42D7-865E-F524BF11AB55}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="250"/>
+																	<Property Name="Min" Type="Real64" Value="-250"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2929EABB-D034-4896-8D3F-7011E874FA4C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A89D068A-BF91-4AD0-9BEE-34729A3F3C44}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Gem_Breaking_Tail-01" ID="{7E383B78-A940-4898-982A-B6483FF3DC38}" ShortID="201099046">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2929EABB-D034-4896-8D3F-7011E874FA4C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A89D068A-BF91-4AD0-9BEE-34729A3F3C44}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Gem_Breaking_Tail-01" ID="{76792E3F-8672-4791-B01F-209DA2D6A8B9}">
+															<Language>SFX</Language>
+															<AudioFile>Gem_Breaking_Tail-01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="742058474"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Gem_Breaking_Tail-01" ID="{76792E3F-8672-4791-B01F-209DA2D6A8B9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Gem_Breaking_Tail-04" ID="{C3201B59-EAEA-4C59-94D6-10E4DD58DD66}" ShortID="564001727">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2929EABB-D034-4896-8D3F-7011E874FA4C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A89D068A-BF91-4AD0-9BEE-34729A3F3C44}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Gem_Breaking_Tail-04" ID="{6F630374-818F-4543-9762-04D094AF155D}">
+															<Language>SFX</Language>
+															<AudioFile>Gem_Breaking_Tail-04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="659331972"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Gem_Breaking_Tail-04" ID="{6F630374-818F-4543-9762-04D094AF155D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Gem_Breaking_Tail-03" ID="{760F26F6-7B9B-49B9-82EA-09213AAEAB51}" ShortID="884819945">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2929EABB-D034-4896-8D3F-7011E874FA4C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A89D068A-BF91-4AD0-9BEE-34729A3F3C44}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Gem_Breaking_Tail-03" ID="{F36B5F59-A35F-4978-8592-32780993A0E8}">
+															<Language>SFX</Language>
+															<AudioFile>Gem_Breaking_Tail-03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="661713518"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Gem_Breaking_Tail-03" ID="{F36B5F59-A35F-4978-8592-32780993A0E8}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Gem_Breaking_Tail-02" ID="{E942F82D-F377-44F7-ACCA-7A4721511D4D}" ShortID="727784771">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2929EABB-D034-4896-8D3F-7011E874FA4C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A89D068A-BF91-4AD0-9BEE-34729A3F3C44}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Gem_Breaking_Tail-02" ID="{E82D4348-643E-4543-9A7C-F3878241A707}">
+															<Language>SFX</Language>
+															<AudioFile>Gem_Breaking_Tail-02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="460657915"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Gem_Breaking_Tail-02" ID="{E82D4348-643E-4543-9A7C-F3878241A707}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<Sound Name="Silence" ID="{5C489408-3DD2-438D-A318-D80045FF302E}" ShortID="242005832">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2929EABB-D034-4896-8D3F-7011E874FA4C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A89D068A-BF91-4AD0-9BEE-34729A3F3C44}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="Silence" ID="{5B530EFF-1E00-4292-8FBD-1E14C166504B}" ShortID="522140444" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+													<PropertyList>
+														<Property Name="Length" Type="Real32" Value="0.15"/>
+													</PropertyList>
+													<Language>SFX</Language>
+												</SourcePlugin>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Silence" ID="{5B530EFF-1E00-4292-8FBD-1E14C166504B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Playlist">
+											<PluginInnerObject Name="" ID="{DC9AE3E9-B09C-4BA2-8664-7D60A574713C}" PluginName="PlaylistSlot" CompanyID="0" PluginID="86">
+												<ReferenceList>
+													<Reference Name="PlaylistObject">
+														<ObjectRef Name="Gem_Head" ID="{D6447BA0-817F-4A24-888B-8EAE199FDC8F}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+													</Reference>
+												</ReferenceList>
+											</PluginInnerObject>
+											<PluginInnerObject Name="" ID="{4533D848-F47F-4F56-ADD0-E4DA39989DE0}" PluginName="PlaylistSlot" CompanyID="0" PluginID="86">
+												<ReferenceList>
+													<Reference Name="PlaylistObject">
+														<ObjectRef Name="Silence" ID="{5C489408-3DD2-438D-A318-D80045FF302E}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+													</Reference>
+												</ReferenceList>
+											</PluginInnerObject>
+											<PluginInnerObject Name="" ID="{B1F2B8D4-A592-45BF-9B41-333442B963B7}" PluginName="PlaylistSlot" CompanyID="0" PluginID="86">
+												<ReferenceList>
+													<Reference Name="PlaylistObject">
+														<ObjectRef Name="Gem_Tail" ID="{81763BCA-E206-4EED-B0D7-142FA331C63E}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+													</Reference>
+												</ReferenceList>
+											</PluginInnerObject>
+										</ObjectList>
+									</ObjectLists>
+								</RandomSequenceContainer>
+								<Sound Name="IceGem_Blast" ID="{947A1B2C-A458-4474-91BF-5D12045DCA56}" ShortID="365522886">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{6C136E79-D7E2-4E76-B337-696F7398D12C}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2929EABB-D034-4896-8D3F-7011E874FA4C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A89D068A-BF91-4AD0-9BEE-34729A3F3C44}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="IceGem_Blast" ID="{FC88DA28-D073-44A4-BEFC-79D79206C278}">
+											<Language>SFX</Language>
+											<AudioFile>IceGem_Blast.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="81118944"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="IceGem_Blast" ID="{FC88DA28-D073-44A4-BEFC-79D79206C278}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</PropertyContainer>
+						<PropertyContainer Name="FireGem" ID="{CF3BF4FC-16A2-4921-BE46-DBEDE2BA5561}" ShortID="1046815106">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2929EABB-D034-4896-8D3F-7011E874FA4C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A89D068A-BF91-4AD0-9BEE-34729A3F3C44}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="FireGem_Impact-02" ID="{DABA0356-DDAC-43B0-B23F-8CB8E1CA7DFA}" ShortID="540121688">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2929EABB-D034-4896-8D3F-7011E874FA4C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A89D068A-BF91-4AD0-9BEE-34729A3F3C44}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FireGem_Impact-02" ID="{365F9A16-2321-4357-9102-63D2F322E181}">
+											<Language>SFX</Language>
+											<AudioFile>FireGem_Impact-02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="270964030"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FireGem_Impact-02" ID="{365F9A16-2321-4357-9102-63D2F322E181}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FireGem_Impact-01" ID="{8F8DD37B-2C85-49AA-AC7D-0B755AD0D916}" ShortID="285864498">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2929EABB-D034-4896-8D3F-7011E874FA4C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A89D068A-BF91-4AD0-9BEE-34729A3F3C44}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FireGem_Impact-01" ID="{79612D39-C79E-4ED2-A11C-C37B59F8CE78}">
+											<Language>SFX</Language>
+											<AudioFile>FireGem_Impact-01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="545281770"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FireGem_Impact-01" ID="{79612D39-C79E-4ED2-A11C-C37B59F8CE78}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FireGem_Flight" ID="{FEE8FBA6-71E4-47E0-B45A-FC6E6C197792}" ShortID="266639848">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2929EABB-D034-4896-8D3F-7011E874FA4C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A89D068A-BF91-4AD0-9BEE-34729A3F3C44}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FireGem_Flight" ID="{74EDB48A-8375-4CB7-B6EA-BDA29B0BF2DC}">
+											<Language>SFX</Language>
+											<AudioFile>FireGem_Flight.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="347613281"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FireGem_Flight" ID="{74EDB48A-8375-4CB7-B6EA-BDA29B0BF2DC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FireGem_Blast-05" ID="{0C4D5AD0-D510-4C8D-8068-7329401E7FA8}" ShortID="42665961">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2929EABB-D034-4896-8D3F-7011E874FA4C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A89D068A-BF91-4AD0-9BEE-34729A3F3C44}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FireGem_Blast-05" ID="{A09BF8F3-59C0-4221-8371-7D6BA9C061B5}">
+											<Language>SFX</Language>
+											<AudioFile>FireGem_Blast-05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1024503810"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FireGem_Blast-05" ID="{A09BF8F3-59C0-4221-8371-7D6BA9C061B5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FireGem_Blast-04" ID="{250D6E5E-296A-4A64-A113-0C95C7FEB9D9}" ShortID="49684524">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2929EABB-D034-4896-8D3F-7011E874FA4C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A89D068A-BF91-4AD0-9BEE-34729A3F3C44}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FireGem_Blast-04" ID="{AE8D62A8-A3AD-4E29-BDD2-2C9FC220936F}">
+											<Language>SFX</Language>
+											<AudioFile>FireGem_Blast-04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="707774635"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FireGem_Blast-04" ID="{AE8D62A8-A3AD-4E29-BDD2-2C9FC220936F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FireGem_Blast-03" ID="{2ED980BA-594D-4AE6-9299-92A38C1DF73A}" ShortID="13080597">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2929EABB-D034-4896-8D3F-7011E874FA4C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A89D068A-BF91-4AD0-9BEE-34729A3F3C44}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FireGem_Blast-03" ID="{624D84D9-ECB3-4D6F-8AD0-4C7083414F12}">
+											<Language>SFX</Language>
+											<AudioFile>FireGem_Blast-03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="560600284"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FireGem_Blast-03" ID="{624D84D9-ECB3-4D6F-8AD0-4C7083414F12}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FireGem_Blast-02" ID="{A7CB0F3B-970F-46A8-8BDD-E7672A329F6E}" ShortID="810249774">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2929EABB-D034-4896-8D3F-7011E874FA4C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A89D068A-BF91-4AD0-9BEE-34729A3F3C44}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FireGem_Blast-02" ID="{F8E335F4-9B48-4777-84E6-4B6B793A7A35}">
+											<Language>SFX</Language>
+											<AudioFile>FireGem_Blast-02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="372511259"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FireGem_Blast-02" ID="{F8E335F4-9B48-4777-84E6-4B6B793A7A35}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FireGem_Blast-01" ID="{6E8E807D-FB72-4C3E-843D-B0EA969BC7F8}" ShortID="658720924">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2929EABB-D034-4896-8D3F-7011E874FA4C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A89D068A-BF91-4AD0-9BEE-34729A3F3C44}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FireGem_Blast-01" ID="{8CBDDE13-F52D-4F01-AAB0-D067F02CC14D}">
+											<Language>SFX</Language>
+											<AudioFile>FireGem_Blast-01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="299515388"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FireGem_Blast-01" ID="{8CBDDE13-F52D-4F01-AAB0-D067F02CC14D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</PropertyContainer>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Containers>
+</WwiseDocument>
