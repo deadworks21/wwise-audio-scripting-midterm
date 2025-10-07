@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{6C062E15-F4D7-4244-95F3-C0C275E2CA68}" SchemaVersion="132">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{6C062E15-F4D7-4244-95F3-C0C275E2CA68}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{6C062E15-F4D7-4244-95F3-C0C275E2CA68}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="PlayerHealth" ID="{3466E088-BB27-4191-A6C0-FD7A53F57E79}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>

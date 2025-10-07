@@ -17,7 +17,20 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{82A77561-E16A-45A9-88C0-4C50C3616DF9}" ShortID="937835808">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.7"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Magic_Recharge" ID="{BE349622-B424-4BB4-8D75-D876FC8C52E3}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 								<Action Name="" ID="{BEBE2A18-6BB7-40DE-B254-D44E7C2B6993}" ShortID="755808425">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.7"/>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Gem_Drop" ID="{2B1C32FA-F125-4F0B-88A9-B00D0C08FB38}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
@@ -34,13 +47,108 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{82A77561-E16A-45A9-88C0-4C50C3616DF9}" ShortID="937835808">
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Foot_Event" ID="{07933263-A870-4F50-8171-C833DBAD5795}" ShortID="523548870">
+					<ChildrenList>
+						<Event Name="Foot_Player" ID="{D4237177-4789-48A4-B01B-F0B7F3CD4FE2}">
+							<ChildrenList>
+								<Action Name="" ID="{E4C1184E-91D7-49F3-B2A9-6622996AD59D}" ShortID="778694639">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Footsteps" ID="{D5DFCC17-A3C4-48F3-9C87-7717E5CAD7BD}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Map" ID="{6183006B-5701-49FE-9384-76895DDCE23C}" ShortID="1001878655">
+					<ChildrenList>
+						<Event Name="Map_Loaded" ID="{5C9ADD85-0E95-4962-94F0-23292B7F8092}">
+							<ChildrenList>
+								<Action Name="" ID="{A2D51A9F-933B-4C23-86FD-7F0173BE6260}" ShortID="385524282">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Heartbeat" ID="{39B06B36-5F18-46DB-B41A-CA10C92ED223}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{F5B06058-F06F-4FF5-8EF3-E3F80DE8E3CD}" ShortID="804142710">
 									<PropertyList>
-										<Property Name="Delay" Type="Real64" Value="0.7"/>
+										<Property Name="ActionType" Type="int16" Value="2"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Magic_Recharge" ID="{BE349622-B424-4BB4-8D75-D876FC8C52E3}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+											<ObjectRef Name="Heartbeat" ID="{39B06B36-5F18-46DB-B41A-CA10C92ED223}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Splashin_Player" ID="{B5443DA1-7E25-4D0F-AE45-4CD496F64CDE}">
+							<ChildrenList>
+								<Action Name="" ID="{04012900-2C4C-44F2-983A-EAD4469EBE02}" ShortID="596657174">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.25"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Splashs" ID="{DACB12CF-3059-4CF0-BB7B-33503A651A0B}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{E9A01064-1F13-425C-9F7E-6D8FD33CA3BF}" ShortID="805738250">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Yes" ID="{551B91DB-B577-4B60-8A15-76081A7CD372}" WorkUnitID="{55AE8270-D472-454A-8026-726C65DB793E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{27185018-B42E-4149-AB18-FB090C9397DB}" ShortID="715462014">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Under_Water" ID="{7CFE1596-AFEA-44CF-9B57-F03E7778D5DB}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SplashOut_Player" ID="{A940DB03-909F-4EFF-8689-8ECE6EB615C4}">
+							<ChildrenList>
+								<Action Name="" ID="{A415F819-EFC1-4176-A297-C0531562F988}" ShortID="914095945">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Splashs" ID="{DACB12CF-3059-4CF0-BB7B-33503A651A0B}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{D94F49FB-95ED-4D02-93D5-D234888677D4}" ShortID="697882307">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="No" ID="{F80BF726-3696-44F2-9325-33A2A24C1139}" WorkUnitID="{55AE8270-D472-454A-8026-726C65DB793E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{6657AA1B-433A-4308-96B0-4F49C7888971}" ShortID="1069210085">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Under_Water" ID="{7CFE1596-AFEA-44CF-9B57-F03E7778D5DB}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

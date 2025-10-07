@@ -1,6 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{55AE8270-D472-454A-8026-726C65DB793E}" SchemaVersion="132">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{55AE8270-D472-454A-8026-726C65DB793E}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{55AE8270-D472-454A-8026-726C65DB793E}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="PlayerLife" ID="{3E80F57E-99FA-40E9-B010-A93F1923BBF5}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="3"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{E6DF4CA2-E3E9-4005-B401-B2EEE52C63E8}"/>
+						<State Name="Alive" ID="{41FC6C8A-B7CB-4FD1-8667-741AEA1526B9}"/>
+						<State Name="Defeated" ID="{047B82C8-7135-45E7-9B84-B6E603BA3945}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="Defeated" ID="{047B82C8-7135-45E7-9B84-B6E603BA3945}"/>
+							<EndState Name="Alive" ID="{41FC6C8A-B7CB-4FD1-8667-741AEA1526B9}"/>
+							<Time>0.1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+				<StateGroup Name="PlayerInWater" ID="{22A2DE3A-1E3F-4504-917B-8DA8D2171784}">
+					<ChildrenList>
+						<State Name="None" ID="{852E8194-F80B-4553-96DE-69D7C8A0F87B}"/>
+						<State Name="Yes" ID="{551B91DB-B577-4B60-8A15-76081A7CD372}"/>
+						<State Name="No" ID="{F80BF726-3696-44F2-9325-33A2A24C1139}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>
