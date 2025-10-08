@@ -49,6 +49,228 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Fire_FireGem_Player" ID="{8B56ECB2-9E89-4A3C-817F-7207D4E79539}">
+							<ChildrenList>
+								<Action Name="" ID="{B6CCC5D0-2DC3-42B5-8747-CD08340E6869}" ShortID="428689964">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Gem_Drop" ID="{72758052-3F4B-4FA6-A9F4-F62EC2A1C24E}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{685490E1-17D4-4654-B447-C44AA74E9178}" ShortID="525206984">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.4"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Magic_Recharge" ID="{02ABDAA5-8BB1-4393-AD83-A01E0ED3CCBE}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{2F71104B-8529-4BA8-9A46-73BC6FB81AB6}" ShortID="469737813">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.55"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="FireGem_Flight" ID="{FEE8FBA6-71E4-47E0-B45A-FC6E6C197792}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{76614326-02C3-42D1-A753-9BF7A49F1BFC}" ShortID="522529488">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Blasts" ID="{978E155A-856A-4919-A12E-51F266145FC1}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{196F348E-2F34-45DC-8BCF-49A2AB495875}" ShortID="736209579">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.25"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Impacts" ID="{FC068228-C00C-4B5A-BE5D-F87C309C9787}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="End_FireGem_Player" ID="{3E828DC4-9E3C-471C-B88E-4D7983876498}">
+							<ChildrenList>
+								<Action Name="" ID="{59171B62-B940-462D-AFA4-842C06743D9F}" ShortID="599973390">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="FireGem_Flight" ID="{FEE8FBA6-71E4-47E0-B45A-FC6E6C197792}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Hit_FireGem_Player" ID="{B1F96CEF-E624-477B-A58B-26675D6142CE}">
+							<ChildrenList>
+								<Action Name="" ID="{63435058-2152-4832-815E-41FCA308E13A}" ShortID="348483464">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Explosions" ID="{FD4384C7-C408-43DB-8BF0-33CFAC1E11A1}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{0F7154B7-7D5F-4C46-B9FF-F96248D4C6CC}" ShortID="50531365">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Impacts" ID="{FC068228-C00C-4B5A-BE5D-F87C309C9787}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Hit_FireGem_Monster" ID="{7D00179A-9FE1-4A7A-8D40-1070821CFB9A}">
+							<ChildrenList>
+								<Action Name="" ID="{60132480-C8CF-4327-BF54-F047E3711B01}" ShortID="262460475">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Impacts" ID="{FC068228-C00C-4B5A-BE5D-F87C309C9787}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Fire_FireGem_Monster" ID="{B1E68FA7-A99A-4A52-A9BA-E60582CCB61C}">
+							<ChildrenList>
+								<Action Name="" ID="{D313918E-15C6-4592-B42B-D0E4DE095C5D}" ShortID="374735803">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Impacts" ID="{FC068228-C00C-4B5A-BE5D-F87C309C9787}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{AE49939B-121B-4A2F-83EA-BC3C61A7AF30}" ShortID="458963938">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="FireGem_Flight" ID="{FEE8FBA6-71E4-47E0-B45A-FC6E6C197792}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{E745233D-E0A2-4B67-AEE3-11A5B4983B6F}" ShortID="613863988">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Gem_Blast" ID="{2F06458E-21D9-41F0-BCC4-C0C5FDF7E9C2}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="End_FireGem_Monster" ID="{57ED6877-7CFC-4A9E-9660-BBA57315FC1E}">
+							<ChildrenList>
+								<Action Name="" ID="{690FB3EA-9F52-4047-A774-66B4E8C5F6EB}" ShortID="832256811">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="FireGem_Flight" ID="{FEE8FBA6-71E4-47E0-B45A-FC6E6C197792}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Hit_Fireball_Monster" ID="{2B1C51F8-6F7F-4E5D-A629-EBCBE0286F2B}">
+							<ChildrenList>
+								<Action Name="" ID="{4AEF28E3-32F9-4930-B7FE-53CE7D5633DD}" ShortID="60200747">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Gem_Blast" ID="{2F06458E-21D9-41F0-BCC4-C0C5FDF7E9C2}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{7BE615F9-77D2-4F09-A132-B9834BA9572E}" ShortID="966082210">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Impacts" ID="{FC068228-C00C-4B5A-BE5D-F87C309C9787}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Fire_IceGem_Monster" ID="{1DE1B417-0F2B-40D3-89EA-74B3FD831802}">
+							<ChildrenList>
+								<Action Name="" ID="{9C690FB0-AD2E-401B-A444-9321CFB3C392}" ShortID="525515546">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.4"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="IceGem_Blast" ID="{947A1B2C-A458-4474-91BF-5D12045DCA56}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{64D7EE03-ACEC-4450-86FF-B80EECBD0748}" ShortID="177534409">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.25"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Magic_Whoosh" ID="{318C9CA6-A709-4B19-9E60-D9887DF8375A}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Fire_Fireball_Monster" ID="{591F497A-6005-4141-8049-B07190189AA9}">
+							<ChildrenList>
+								<Action Name="" ID="{7ADCFE03-C445-4A0D-A0A5-DEF913B51DBD}" ShortID="593879468">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="FireBall" ID="{C2F96526-66D1-4FA9-B936-75898A5C60C9}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{D9FB982A-91E1-4995-B525-C6C227AC9C34}" ShortID="750949820">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Gem_Blast" ID="{2F06458E-21D9-41F0-BCC4-C0C5FDF7E9C2}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="End_Fireball_Monster" ID="{5845EF48-3D33-42AE-866B-FB35DD4E6BAB}">
+							<ChildrenList>
+								<Action Name="" ID="{03C2321B-7200-498D-BE27-40FBF8165D43}" ShortID="459001073">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Silence" ID="{0AB2ECB6-5864-45EE-8FF0-F263C427C97D}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Foot_Event" ID="{07933263-A870-4F50-8171-C833DBAD5795}" ShortID="523548870">
