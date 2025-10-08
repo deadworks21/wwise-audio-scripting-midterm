@@ -4,6 +4,10 @@
 		<WorkUnit Name="Default Work Unit" ID="{6F227CD9-76B4-4485-9FFC-9810949CBD32}" PersistMode="Standalone">
 			<ChildrenList>
 				<Folder Name="Magic" ID="{1F8951AD-731B-4AB0-8BF9-40FF02C76501}" ShortID="512873069">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="14"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Event Name="Fire_IceGem_Player" ID="{A5E748FD-7BAA-4EBD-8121-B8B1D672FCB3}">
 							<ChildrenList>
@@ -114,7 +118,7 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Hit_FireGem_Player" ID="{B1F96CEF-E624-477B-A58B-26675D6142CE}">
+						<Event Name="Hit_FireGem_Monster" ID="{B1F96CEF-E624-477B-A58B-26675D6142CE}">
 							<ChildrenList>
 								<Action Name="" ID="{63435058-2152-4832-815E-41FCA308E13A}" ShortID="348483464">
 									<PropertyList>
@@ -135,7 +139,7 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Hit_FireGem_Monster" ID="{7D00179A-9FE1-4A7A-8D40-1070821CFB9A}">
+						<Event Name="Hit_FireGem_Player" ID="{7D00179A-9FE1-4A7A-8D40-1070821CFB9A}">
 							<ChildrenList>
 								<Action Name="" ID="{60132480-C8CF-4327-BF54-F047E3711B01}" ShortID="262460475">
 									<ReferenceList>
@@ -243,7 +247,7 @@
 							<ChildrenList>
 								<Action Name="" ID="{7ADCFE03-C445-4A0D-A0A5-DEF913B51DBD}" ShortID="593879468">
 									<PropertyList>
-										<Property Name="Delay" Type="Real64" Value="0.5"/>
+										<Property Name="Delay" Type="Real64" Value="0.35"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -273,22 +277,11 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="Foot_Event" ID="{07933263-A870-4F50-8171-C833DBAD5795}" ShortID="523548870">
-					<ChildrenList>
-						<Event Name="Foot_Player" ID="{D4237177-4789-48A4-B01B-F0B7F3CD4FE2}">
-							<ChildrenList>
-								<Action Name="" ID="{E4C1184E-91D7-49F3-B2A9-6622996AD59D}" ShortID="778694639">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Footsteps" ID="{D5DFCC17-A3C4-48F3-9C87-7717E5CAD7BD}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-					</ChildrenList>
-				</Folder>
 				<Folder Name="Map" ID="{6183006B-5701-49FE-9384-76895DDCE23C}" ShortID="1001878655">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<Event Name="Map_Loaded" ID="{5C9ADD85-0E95-4962-94F0-23292B7F8092}">
 							<ChildrenList>
@@ -306,6 +299,16 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Heartbeat" ID="{39B06B36-5F18-46DB-B41A-CA10C92ED223}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{5AEA43B3-7365-47E8-8091-C78C67FE5726}" ShortID="99796121">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Alive" ID="{41FC6C8A-B7CB-4FD1-8667-741AEA1526B9}" WorkUnitID="{55AE8270-D472-454A-8026-726C65DB793E}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -371,6 +374,82 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Under_Water" ID="{7CFE1596-AFEA-44CF-9B57-F03E7778D5DB}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Movement" ID="{5AE5B328-7A9D-4B6D-B568-587B05465867}" ShortID="1002443602">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="11"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="Foot_Player" ID="{D4237177-4789-48A4-B01B-F0B7F3CD4FE2}">
+							<ChildrenList>
+								<Action Name="" ID="{E4C1184E-91D7-49F3-B2A9-6622996AD59D}" ShortID="778694639">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Footsteps" ID="{D5DFCC17-A3C4-48F3-9C87-7717E5CAD7BD}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Defeated" ID="{F70AD17D-0A2D-44E2-90A8-94E4842DF900}" ShortID="205714839">
+					<ChildrenList>
+						<Event Name="Defeated_Player" ID="{1E872CEE-A8F9-4257-A9AF-EA3B473196AD}">
+							<ChildrenList>
+								<Action Name="" ID="{955832BE-F70F-44B7-9302-7DCEEAF64F6F}" ShortID="191143187">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Defeated" ID="{047B82C8-7135-45E7-9B84-B6E603BA3945}" WorkUnitID="{55AE8270-D472-454A-8026-726C65DB793E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{4EC505E2-0202-4FC4-897F-EDB6E6BF851F}" ShortID="97463241">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Player_Defeat" ID="{172BF03C-FB47-40F3-91C6-C8277EE03B66}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{B001C961-335F-487E-A562-BEA19BC7E78B}" ShortID="212482275">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.35"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Defeated-138bpm4-4_L4M-P0" ID="{423C6126-080B-4D7A-9B82-9A5ABAE12CCB}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Defeated_Knight" ID="{38B7D9A3-5191-41CF-8298-3B345981A2B8}">
+							<ChildrenList>
+								<Action Name="" ID="{B29EB885-ED70-4297-9291-A4AE47F17217}" ShortID="633873476">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Defeated_Knight" ID="{9EF2C687-1E1B-4A36-92A8-E2CCA9E81C1A}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Defeated_Goblin" ID="{0E2C15C3-E6F4-412E-9B9B-A73957AD56FB}">
+							<ChildrenList>
+								<Action Name="" ID="{700DD1E3-1527-4B98-9D2F-F4ACC40A227B}" ShortID="170543425">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Defeated_Goblin" ID="{870EA2BA-400F-4F54-9A41-302CA5CF740C}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
