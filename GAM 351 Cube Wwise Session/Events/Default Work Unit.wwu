@@ -398,6 +398,112 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Folder Name="Monsters" ID="{3A14DD34-7942-491E-99A6-AB02649B557A}" ShortID="242327302">
+							<ChildrenList>
+								<Event Name="Foot_Slith" ID="{6E8A1C75-CDBE-4A94-8267-CC2F5E6C8898}">
+									<ChildrenList>
+										<Action Name="" ID="{24ADA35B-0213-421B-90D3-919AC23D3E11}" ShortID="179727829">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Footsteps" ID="{D5DFCC17-A3C4-48F3-9C87-7717E5CAD7BD}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Foot_Goblin" ID="{824DAA27-5E48-4819-B521-C227C831DFA3}">
+									<ChildrenList>
+										<Action Name="" ID="{D53BE205-3169-44DB-83D1-77D07A86F3A8}" ShortID="488443002">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Footsteps" ID="{D5DFCC17-A3C4-48F3-9C87-7717E5CAD7BD}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Foot_Rhino" ID="{C673FB2E-5E9F-4CC3-9E29-8C5F485B70EA}">
+									<ChildrenList>
+										<Action Name="" ID="{1FA2B0A9-68DF-4FAB-AA05-840FEC75BD9B}" ShortID="596299779">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Footsteps" ID="{D5DFCC17-A3C4-48F3-9C87-7717E5CAD7BD}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Foot_Ogre" ID="{F962BD92-FFFD-41C6-9649-4903028D2E6B}">
+									<ChildrenList>
+										<Action Name="" ID="{B44533F6-9067-4EA8-BC06-1661A9673AD7}" ShortID="213182171">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Footsteps" ID="{D5DFCC17-A3C4-48F3-9C87-7717E5CAD7BD}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Foot_Rat" ID="{7DAC4CDA-D785-45A2-8853-FB3890757F8B}">
+									<ChildrenList>
+										<Action Name="" ID="{2D6C7BC5-86D5-4F19-BA72-7F3F584453E8}" ShortID="707194870">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Footsteps" ID="{D5DFCC17-A3C4-48F3-9C87-7717E5CAD7BD}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Foot_Hellpig" ID="{BFBC9204-9744-4B9E-A21B-451189D2E6A9}">
+									<ChildrenList>
+										<Action Name="" ID="{734BF0F8-0643-46D1-94CA-B697EAB7013A}" ShortID="1043903893">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Footsteps" ID="{D5DFCC17-A3C4-48F3-9C87-7717E5CAD7BD}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Foot_Knight" ID="{0954C997-D664-4A23-9804-39B8AB96EDB4}">
+									<ChildrenList>
+										<Action Name="" ID="{9AD69789-9A83-47F8-808E-95DAB2A5BDC3}" ShortID="607170877">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Footsteps" ID="{D5DFCC17-A3C4-48F3-9C87-7717E5CAD7BD}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{985F33CC-BD22-4535-9450-EE014F5ADBEB}" ShortID="620235883">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Knight_Foot" ID="{8677A462-7992-431C-8689-A51C46C46F02}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Foot_Bauul" ID="{346BA95D-BD06-4F7F-AF83-628532536002}">
+									<ChildrenList>
+										<Action Name="" ID="{26A32526-F823-42F5-97AC-2C4D0AEE48C7}" ShortID="965428194">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Foot_Bauul" ID="{B929EE26-F156-47AF-921C-D07F64E2C3F2}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{55433350-E852-4D06-B4C5-DF07743D65EC}" ShortID="930142228">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Footsteps" ID="{D5DFCC17-A3C4-48F3-9C87-7717E5CAD7BD}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Defeated" ID="{F70AD17D-0A2D-44E2-90A8-94E4842DF900}" ShortID="205714839">
@@ -450,6 +556,154 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Defeated_Goblin" ID="{870EA2BA-400F-4F54-9A41-302CA5CF740C}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Defated_Rat" ID="{FD797ACC-584E-4148-B7EA-1AC81495F67D}">
+							<ChildrenList>
+								<Action Name="" ID="{B099057C-D5F0-4693-9C16-BA6E980B6016}" ShortID="677952306">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Defeated_Rat" ID="{D614A528-18AF-4830-9D17-ED9667A82520}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Defeated_Rhino" ID="{35A0625C-790C-43E9-8765-8EEE404DAE57}">
+							<ChildrenList>
+								<Action Name="" ID="{C0EBC3B2-BD67-4216-9AF5-C3D7E0E7BB04}" ShortID="838553697">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Defeated_Rhino" ID="{1013E34F-2A04-45CF-872D-D8B8A388DA25}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Defeated_Slith" ID="{53D72B20-863F-4BC6-BC85-CC6302D67EBF}"/>
+						<Event Name="Defeated_Bauul" ID="{FB40A373-3042-4C45-B017-48EEE7C8DDBF}">
+							<ChildrenList>
+								<Action Name="" ID="{857310D4-6E72-4616-985F-C020ABA4C1D5}" ShortID="966024074">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Defeated_Bauul" ID="{C2A1078C-D43A-47AE-9B56-F66D0F0EF087}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Defeated_Hellpig" ID="{DB9D8CA5-CFBB-48E3-B696-4AB739163B67}">
+							<ChildrenList>
+								<Action Name="" ID="{4DA03D67-0C1E-42FD-BCA9-043F478707E2}" ShortID="827124387">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Defeated_Hellpig" ID="{25659B6B-8F10-4254-AEF1-3802B959E3B0}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Defeated_Ogre" ID="{A3966C18-08F9-4D60-B1C5-C208F9F1298D}">
+							<ChildrenList>
+								<Action Name="" ID="{ACA68B63-E1A4-402C-9B78-D5A368A0DDD8}" ShortID="612738086">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Defeated_Ogre" ID="{8B1DDAED-DECD-46FD-B54E-E1F2D81B6F1A}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Grunts" ID="{B16EF77A-719B-43D9-AA3C-5D946225D60F}" ShortID="172583183">
+					<ChildrenList>
+						<Event Name="Grunt_Goblin" ID="{2A612820-881D-431C-9872-B21D6890C4CE}">
+							<ChildrenList>
+								<Action Name="" ID="{78536CD2-301B-4376-84E6-A197ECC25E86}" ShortID="336473290">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Grunt" ID="{FB68A149-BB99-49EB-A1CB-25457EE936B7}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Grunt_Ogre" ID="{6E118FFA-EC58-4136-836E-026FC642A6D3}">
+							<ChildrenList>
+								<Action Name="" ID="{8D1A66F0-C8D1-48BC-8AA1-FD52DBFF4231}" ShortID="149127002">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Grunt" ID="{FB68A149-BB99-49EB-A1CB-25457EE936B7}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Grunt_Slith" ID="{8B572EFF-32D5-4EF9-BC3F-42BC51387BAF}">
+							<ChildrenList>
+								<Action Name="" ID="{A175DE7E-EEDB-489D-8E94-5A1C5D3E317F}" ShortID="253317822">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Grunt" ID="{FB68A149-BB99-49EB-A1CB-25457EE936B7}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Grunt_Rhino" ID="{E270DA52-302C-4C9F-9A27-90D095D663D1}">
+							<ChildrenList>
+								<Action Name="" ID="{9C183EF6-403D-4803-BC05-493A5E7A7927}" ShortID="911257304">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Grunt" ID="{FB68A149-BB99-49EB-A1CB-25457EE936B7}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Grunt_HellPig" ID="{C90DF522-FC9C-4DE4-98F7-22D8CDAAE43D}">
+							<ChildrenList>
+								<Action Name="" ID="{337E2CA2-1688-481C-8D4B-1AA197BBCB78}" ShortID="166192455">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Grunt" ID="{FB68A149-BB99-49EB-A1CB-25457EE936B7}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Grunt_Bauul" ID="{7651051A-C09E-4785-8BCE-A93A2A7D34BD}">
+							<ChildrenList>
+								<Action Name="" ID="{475D3E60-B87C-4323-8E17-D1C7A32D65FF}" ShortID="159776665">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Grunt" ID="{FB68A149-BB99-49EB-A1CB-25457EE936B7}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Grunt_Rat" ID="{C97821C2-F055-4B90-B4DB-F7D353EA9581}">
+							<ChildrenList>
+								<Action Name="" ID="{2FA5FD07-5D46-44FC-B361-5841667B13DA}" ShortID="736623294">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Grunt" ID="{FB68A149-BB99-49EB-A1CB-25457EE936B7}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Grunt_Knight" ID="{3034B98C-398A-47E1-A03A-8A980578F35B}">
+							<ChildrenList>
+								<Action Name="" ID="{12B9D527-D6CB-49DF-BCE6-9DC1F40E46C1}" ShortID="365049346">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Grunt" ID="{FB68A149-BB99-49EB-A1CB-25457EE936B7}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

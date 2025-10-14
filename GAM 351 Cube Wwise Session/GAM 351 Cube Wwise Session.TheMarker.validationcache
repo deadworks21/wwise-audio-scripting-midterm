@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="132">
-	<ValidationCacheItem File="C:\Users\TheMarker\AppData\Roaming\Audiokinetic\MediaPool\2\MediaPoolQuery.wsettings" DateLow="1759884166" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\TheMarker\AppData\Roaming\Audiokinetic\MediaPool\2\MediaPoolQuery.wsettings" DateLow="1759901995" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\TheMarker\OneDrive\Desktop\Classes\audio scripting class\Midterm Files\wwise-audio-scripting-midterm\GAM 351 Cube Wwise Session\Attenuations\Default Work Unit.wwu" DateLow="1759798911" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\TheMarker\OneDrive\Desktop\Classes\audio scripting class\Midterm Files\wwise-audio-scripting-midterm\GAM 351 Cube Wwise Session\Busses\Default Work Unit.wwu" DateLow="1759798911" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\TheMarker\OneDrive\Desktop\Classes\audio scripting class\Midterm Files\wwise-audio-scripting-midterm\GAM 351 Cube Wwise Session\Containers\Default Work Unit.wwu" DateLow="1759884183" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\TheMarker\OneDrive\Desktop\Classes\audio scripting class\Midterm Files\wwise-audio-scripting-midterm\GAM 351 Cube Wwise Session\Containers\Default Work Unit.wwu" DateLow="1760403175" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\TheMarker\OneDrive\Desktop\Classes\audio scripting class\Midterm Files\wwise-audio-scripting-midterm\GAM 351 Cube Wwise Session\Containers\Music (Migrated)\Default Work Unit.wwu" DateLow="1759798911" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\TheMarker\OneDrive\Desktop\Classes\audio scripting class\Midterm Files\wwise-audio-scripting-midterm\GAM 351 Cube Wwise Session\Control Surface Sessions\Default Work Unit.wwu" DateLow="1759798911" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\TheMarker\OneDrive\Desktop\Classes\audio scripting class\Midterm Files\wwise-audio-scripting-midterm\GAM 351 Cube Wwise Session\Conversion Settings\Default Work Unit.wwu" DateLow="1759798911" DateHigh="0"/>
@@ -12,8 +12,8 @@
 	<ValidationCacheItem File="C:\Users\TheMarker\OneDrive\Desktop\Classes\audio scripting class\Midterm Files\wwise-audio-scripting-midterm\GAM 351 Cube Wwise Session\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1759798911" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\TheMarker\OneDrive\Desktop\Classes\audio scripting class\Midterm Files\wwise-audio-scripting-midterm\GAM 351 Cube Wwise Session\Effects\Default Work Unit.wwu" DateLow="1759798911" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\TheMarker\OneDrive\Desktop\Classes\audio scripting class\Midterm Files\wwise-audio-scripting-midterm\GAM 351 Cube Wwise Session\Effects\Factory Effects.wwu" DateLow="1759798911" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\TheMarker\OneDrive\Desktop\Classes\audio scripting class\Midterm Files\wwise-audio-scripting-midterm\GAM 351 Cube Wwise Session\Events\Default Work Unit.wwu" DateLow="1759813050" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\TheMarker\OneDrive\Desktop\Classes\audio scripting class\Midterm Files\wwise-audio-scripting-midterm\GAM 351 Cube Wwise Session\GAM 351 Cube Wwise Session.TheMarker.wsettings" DateLow="1759813052" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\TheMarker\OneDrive\Desktop\Classes\audio scripting class\Midterm Files\wwise-audio-scripting-midterm\GAM 351 Cube Wwise Session\Events\Default Work Unit.wwu" DateLow="1760403175" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\TheMarker\OneDrive\Desktop\Classes\audio scripting class\Midterm Files\wwise-audio-scripting-midterm\GAM 351 Cube Wwise Session\GAM 351 Cube Wwise Session.TheMarker.wsettings" DateLow="1759901995" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\TheMarker\OneDrive\Desktop\Classes\audio scripting class\Midterm Files\wwise-audio-scripting-midterm\GAM 351 Cube Wwise Session\GAM 351 Cube Wwise Session.wproj" DateLow="1759798911" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\TheMarker\OneDrive\Desktop\Classes\audio scripting class\Midterm Files\wwise-audio-scripting-midterm\GAM 351 Cube Wwise Session\Game Parameters\Default Work Unit.wwu" DateLow="1759808542" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\TheMarker\OneDrive\Desktop\Classes\audio scripting class\Midterm Files\wwise-audio-scripting-midterm\GAM 351 Cube Wwise Session\Metadata\Default Work Unit.wwu" DateLow="1759798911" DateHigh="0"/>
