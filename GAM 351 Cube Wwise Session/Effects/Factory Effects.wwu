@@ -413,10 +413,12 @@
 										<Effect Name="Bass_Remover_5" ID="{E7CECC42-E084-4453-82FF-836B23BA2B83}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
 											<PropertyList>
 												<Property Name="FilterTypeBand1" Type="int32" Value="1"/>
-												<Property Name="FilterTypeBand2" Type="int32" Value="4"/>
-												<Property Name="FrequencyBand2" Type="Real32" Value="180"/>
-												<Property Name="GainBand2" Type="Real32" Value="-10"/>
+												<Property Name="FilterTypeBand2" Type="int32" Value="8"/>
+												<Property Name="FrequencyBand1" Type="Real32" Value="51.03632"/>
+												<Property Name="FrequencyBand2" Type="Real32" Value="152.9648"/>
+												<Property Name="GainBand2" Type="Real32" Value="3.030717"/>
 												<Property Name="OnOffBand3" Type="bool" Value="False"/>
+												<Property Name="QFactorBand2" Type="Real32" Value="2.167834"/>
 											</PropertyList>
 										</Effect>
 										<Effect Name="Bass_Remover_6" ID="{618E8FA3-0360-4858-A11E-3490F5AA0B68}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">

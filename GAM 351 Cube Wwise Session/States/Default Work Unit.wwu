@@ -28,6 +28,13 @@
 						<State Name="No" ID="{F80BF726-3696-44F2-9325-33A2A24C1139}"/>
 					</ChildrenList>
 				</StateGroup>
+				<StateGroup Name="PlayerHasSuperGem" ID="{FB280FD7-E75F-4ABF-BB3E-86FB301DB7E2}">
+					<ChildrenList>
+						<State Name="None" ID="{E7BE8E55-04B9-4EBA-A795-DEB111A0C314}"/>
+						<State Name="Yse" ID="{45E10C38-130F-4022-BF3D-35CEC29E8B98}"/>
+						<State Name="No" ID="{26BF2F2A-2A94-45F4-A3C9-7DE68A0FE0A6}"/>
+					</ChildrenList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>
