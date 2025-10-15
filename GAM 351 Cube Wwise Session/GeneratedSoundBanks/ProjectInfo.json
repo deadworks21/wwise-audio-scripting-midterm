@@ -1,0 +1,29 @@
+{
+ "ProjectInfo": {
+  "Project": {
+   "Name": "GAM 351 Cube Wwise Session",
+   "GUID": "{C6F0DFA9-5653-4A78-9254-C1AEAC3C22DB}",
+   "Generator": "2025.1.2.8976"
+  },
+  "CacheRoot": "../.cache",
+  "Platforms": [
+   {
+    "Name": "Windows",
+    "GUID": "{DA5F7B5A-3489-4102-9915-4F27F2D73411}",
+    "BasePlatform": "Windows",
+    "BasePlatformGUID": "{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}",
+    "Path": "../../../../../../../../../../Audiokinetic/Cube2025.1.2.8976/Cube/cube/soundbanks/Windows"
+   }
+  ],
+  "Languages": [
+   {
+    "Name": "English(US)",
+    "Id": "684519430",
+    "GUID": "{06761841-C87C-4D36-82F0-8BD983D3F9C9}",
+    "Default": "true",
+    "UseAsStandIn": "true"
+   }
+  ],
+  "FileHash": "{B56B6D05-D965-0F03-F3AE-884C32920E1C}"
+ }
+}

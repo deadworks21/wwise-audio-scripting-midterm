@@ -5,10 +5,106 @@
 			<ChildrenList>
 				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
 					<ReferenceList>
-						<Reference Name="AudioDevice">
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
 							<ObjectRef Name="System" ID="{4374C6BF-B325-45C6-915F-E837FCE3B20A}" WorkUnitID="{31351A97-D2BF-42DD-B172-F89F7E7A7A36}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Enviroment" ID="{FCAF59BD-CCA2-410C-BC64-F2C85C92E47D}">
+							<ChildrenList>
+								<AuxBus Name="env_small_room" ID="{F77E515B-0CBB-4482-85D1-50867D741285}">
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<EffectSlot Name="" ID="{F5B446E8-B1D7-4359-A93D-06056CE09557}" ShortID="1610709">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+														<ObjectRef Name="Room_Small" ID="{577F1466-A63B-47F7-98BD-C56E433F8B5D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</ObjectList>
+									</ObjectLists>
+								</AuxBus>
+								<AuxBus Name="env_corridor" ID="{B9EEDDBB-DC3C-44B7-8D91-1A9838B1F628}">
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<EffectSlot Name="" ID="{EF8B24D7-AD46-4DF9-9316-E7C6EE5F7280}" ShortID="501271400">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+														<ObjectRef Name="Hall_Small" ID="{D65B5F04-B83B-412C-9434-34A13A477E24}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</ObjectList>
+									</ObjectLists>
+								</AuxBus>
+								<AuxBus Name="env_large_room" ID="{FA5DC538-A297-4EDB-8F21-274A1198E0BD}">
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<EffectSlot Name="" ID="{DAAB7F64-16CB-4048-A31B-07F4B679C1DC}" ShortID="509283093">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+														<ObjectRef Name="Room_Large" ID="{AD8EFAFC-7121-4D5F-BE4D-B13FBD6CEBAE}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</ObjectList>
+									</ObjectLists>
+								</AuxBus>
+								<AuxBus Name="env_medium_room" ID="{F8CF6014-AFFA-4A46-BD75-D44A64A0A61F}">
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<EffectSlot Name="" ID="{79160311-FDE1-44CB-B3A3-F3952AF3A9DD}" ShortID="931496585">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+														<ObjectRef Name="Room_Medium" ID="{F5C06EC1-E4A4-4332-A7D3-A89E2986B74F}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</ObjectList>
+									</ObjectLists>
+								</AuxBus>
+								<AuxBus Name="SuperGem_Flanger" ID="{DEC0B791-7753-4631-BB16-4C8CBE2227AF}">
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<EffectSlot Name="" ID="{C6B3917F-3386-4104-A935-1FFF651F4015}" ShortID="298323890">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
+														<ObjectRef Name="Deep" ID="{76753DA8-3DCF-4812-A726-2745812F6C1B}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</ObjectList>
+									</ObjectLists>
+								</AuxBus>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="SFX" ID="{128968F7-06E1-4876-B662-E8A46367C66C}"/>
+						<Bus Name="Music" ID="{F1E209C9-FA8D-4E22-A377-79BA7FB74CEE}"/>
+						<Bus Name="Voice" ID="{48B90EB4-8FEC-44C9-B35E-65C95EA46773}">
+							<DuckingList>
+								<DuckItem>
+									<BusRef Name="Music" ID="{F1E209C9-FA8D-4E22-A377-79BA7FB74CEE}"/>
+									<DuckingParam>
+										<Volume>-10</Volume>
+										<FadeInTime>1</FadeInTime>
+										<FadeOutTime>0.5</FadeOutTime>
+										<FadeCurve>FadeLog2</FadeCurve>
+										<TargetProp>BusVolume</TargetProp>
+									</DuckingParam>
+								</DuckItem>
+								<DuckItem>
+									<BusRef Name="SFX" ID="{128968F7-06E1-4876-B662-E8A46367C66C}"/>
+									<DuckingParam>
+										<Volume>-6</Volume>
+										<FadeInTime>1</FadeInTime>
+										<FadeOutTime>0.300000011920929</FadeOutTime>
+										<FadeCurve>FadeLog2</FadeCurve>
+									</DuckingParam>
+								</DuckItem>
+							</DuckingList>
+						</Bus>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

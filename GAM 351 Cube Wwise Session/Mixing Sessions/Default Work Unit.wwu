@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{C9EC551C-11CD-4582-B582-C96C493263FD}" SchemaVersion="132">
 	<MixingSessions>
-		<WorkUnit Name="Default Work Unit" ID="{C9EC551C-11CD-4582-B582-C96C493263FD}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{C9EC551C-11CD-4582-B582-C96C493263FD}" PersistMode="Standalone">
+			<ChildrenList>
+				<MixingSession Name="Rocket" ID="{432B2F60-E856-4D35-8B39-0D5C1862455A}">
+					<ObjectList>
+						<ObjectRef Name="Blasts" ID="{978E155A-856A-4919-A12E-51F266145FC1}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+						<ObjectRef Name="Explosions" ID="{FD4384C7-C408-43DB-8BF0-33CFAC1E11A1}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+						<ObjectRef Name="FireGem_Flight" ID="{FEE8FBA6-71E4-47E0-B45A-FC6E6C197792}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+						<ObjectRef Name="Enviroment" ID="{FCAF59BD-CCA2-410C-BC64-F2C85C92E47D}" WorkUnitID="{A89D068A-BF91-4AD0-9BEE-34729A3F3C44}"/>
+						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A89D068A-BF91-4AD0-9BEE-34729A3F3C44}"/>
+					</ObjectList>
+				</MixingSession>
+				<MixingSession Name="Player" ID="{6B2711AB-0C41-4C9C-B375-9A8B09853DFD}">
+					<ObjectList>
+						<ObjectRef Name="Main Player" ID="{7879AAF8-BFFF-4559-8FC3-A488EAE202F7}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+						<ObjectRef Name="Jumping" ID="{40F6FF0D-6B2F-4BF3-98B4-A07F7EF25F60}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+						<ObjectRef Name="Pain" ID="{4458AA4A-E213-4DB3-8963-37399E12D958}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+						<ObjectRef Name="Player_Defeat" ID="{172BF03C-FB47-40F3-91C6-C8277EE03B66}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+						<ObjectRef Name="Footsteps" ID="{D5DFCC17-A3C4-48F3-9C87-7717E5CAD7BD}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+						<ObjectRef Name="Heartbeat" ID="{39B06B36-5F18-46DB-B41A-CA10C92ED223}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+					</ObjectList>
+				</MixingSession>
+			</ChildrenList>
+		</WorkUnit>
 	</MixingSessions>
 </WwiseDocument>

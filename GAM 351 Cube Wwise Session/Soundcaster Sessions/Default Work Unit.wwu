@@ -1,6 +1,93 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{E81CF303-C7FD-4034-8A40-7395DF8D5146}" SchemaVersion="132">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{E81CF303-C7FD-4034-8A40-7395DF8D5146}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{E81CF303-C7FD-4034-8A40-7395DF8D5146}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Player" ID="{91B94E7E-65A5-4184-B0D5-E1DDF6381CA2}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Defeated_Player" ID="{1E872CEE-A8F9-4257-A9AF-EA3B473196AD}" WorkUnitID="{6F227CD9-76B4-4485-9FFC-9810949CBD32}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Fire_FireGem_Player" ID="{8B56ECB2-9E89-4A3C-817F-7207D4E79539}" WorkUnitID="{6F227CD9-76B4-4485-9FFC-9810949CBD32}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Fire_LightningGem_Player" ID="{4227B27E-0555-450A-9E70-92013673DB18}" WorkUnitID="{6F227CD9-76B4-4485-9FFC-9810949CBD32}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Fire_PoisonGem_Player" ID="{8BCBB15C-B7A6-47D5-BB4E-4A5B65AA4DD6}" WorkUnitID="{6F227CD9-76B4-4485-9FFC-9810949CBD32}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Fire_IceGem_Player" ID="{A5E748FD-7BAA-4EBD-8121-B8B1D672FCB3}" WorkUnitID="{6F227CD9-76B4-4485-9FFC-9810949CBD32}"/>
+							<Position X="0" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Land" ID="{EDBC65D5-ADB1-430C-93A1-96DB01A1AD7D}" WorkUnitID="{6F227CD9-76B4-4485-9FFC-9810949CBD32}"/>
+							<Position X="0" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Hit_FireGem_Player" ID="{7D00179A-9FE1-4A7A-8D40-1070821CFB9A}" WorkUnitID="{6F227CD9-76B4-4485-9FFC-9810949CBD32}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Jump" ID="{6685F0C1-5B2B-427F-AF64-87C3902C2B57}" WorkUnitID="{6F227CD9-76B4-4485-9FFC-9810949CBD32}"/>
+							<Position X="1" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="End_FireGem_Player" ID="{3E828DC4-9E3C-471C-B88E-4D7983876498}" WorkUnitID="{6F227CD9-76B4-4485-9FFC-9810949CBD32}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Foot_Player" ID="{D4237177-4789-48A4-B01B-F0B7F3CD4FE2}" WorkUnitID="{6F227CD9-76B4-4485-9FFC-9810949CBD32}"/>
+							<Position X="2" Y="5"/>
+						</Module>
+					</ModuleList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="Rocket" ID="{4C5E7120-C6E4-438F-B070-FAA3319CD6BA}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Fire_FireGem_Player" ID="{8B56ECB2-9E89-4A3C-817F-7207D4E79539}" WorkUnitID="{6F227CD9-76B4-4485-9FFC-9810949CBD32}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Hit_FireGem_Monster" ID="{B1F96CEF-E624-477B-A58B-26675D6142CE}" WorkUnitID="{6F227CD9-76B4-4485-9FFC-9810949CBD32}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="FireGem" ID="{CF3BF4FC-16A2-4921-BE46-DBEDE2BA5561}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Blasts" ID="{978E155A-856A-4919-A12E-51F266145FC1}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="FireGem_Flight" ID="{FEE8FBA6-71E4-47E0-B45A-FC6E6C197792}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+							<Position X="0" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Hit_FireGem_Player" ID="{7D00179A-9FE1-4A7A-8D40-1070821CFB9A}" WorkUnitID="{6F227CD9-76B4-4485-9FFC-9810949CBD32}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="End_FireGem_Monster" ID="{57ED6877-7CFC-4A9E-9660-BBA57315FC1E}" WorkUnitID="{6F227CD9-76B4-4485-9FFC-9810949CBD32}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Explosions" ID="{FD4384C7-C408-43DB-8BF0-33CFAC1E11A1}" WorkUnitID="{8CF4AE38-6792-4D2B-98A7-397AF63F49B8}"/>
+							<Position X="1" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="End_FireGem_Player" ID="{3E828DC4-9E3C-471C-B88E-4D7983876498}" WorkUnitID="{6F227CD9-76B4-4485-9FFC-9810949CBD32}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+					</ModuleList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>
