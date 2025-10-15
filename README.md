@@ -16,6 +16,8 @@ Our task was to **author all of the game’s audio behavior inside Wwise** — c
 The full list of required task is documented in
 📄 [Task List Cube.xlsx](./Task%20List%20Cube.xlsx)
 
+
+### Summary Table
 | Cube Game Calls by Category | Description                          |
 | :-------------------------- | :----------------------------------- |
 | Defeated_Knight             | Played upon death of enemy character |
