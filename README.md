@@ -13,6 +13,9 @@ Our task was to **author all of the game’s audio behavior inside Wwise** — c
 ---
 
 ## 🎯 Goals
+The full list of required task is documented in
+📄 [Task List Cube.xlsx](./Task%20List%20Cube.xlsx)
+
 - Re-assemble the provided SFX so that each gameplay action produces the **correct, context-sensitive sound**  
   – e.g. firing the *Ice Gem* plays the correct launch burst, looping flight whoosh, and ends with the ice-impact explosion (rather than an unrelated sound).  
 - Script all playback logic strictly in **Wwise** using Events, Random/Sequence Containers, RTPCs, and States — **no code changes in the Cube game**.
