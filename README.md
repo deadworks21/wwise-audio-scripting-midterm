@@ -16,6 +16,19 @@ Our task was to **author all of the game’s audio behavior inside Wwise** — c
 The full list of required task is documented in
 📄 [Task List Cube.xlsx](./Task%20List%20Cube.xlsx)
 
+| Cube Game Calls by Category | Description                          |
+| :-------------------------- | :----------------------------------- |
+| Defeated_Knight             | Played upon death of enemy character |
+| Defeated_Rat                | Played upon death of enemy character |
+| Defeated_Rhino              | Played upon death of enemy character |
+| Defeated_Goblin             | Played upon death of enemy character |
+| Defeated_Player             | Played upon death of enemy character |
+| Defeated_Hellpig            | Played upon death of enemy character |
+| Defeated_Bauul              | Played upon death of enemy character |
+| Defeated_Ogre               | Played upon death of enemy character |
+| Defeated_Slith              | Played upon death of enemy character |
+| Foot_Slith                  | *(continues in full spreadsheet)*    |
+
 - Re-assemble the provided SFX so that each gameplay action produces the **correct, context-sensitive sound**  
   – e.g. firing the *Ice Gem* plays the correct launch burst, looping flight whoosh, and ends with the ice-impact explosion (rather than an unrelated sound).  
 - Script all playback logic strictly in **Wwise** using Events, Random/Sequence Containers, RTPCs, and States — **no code changes in the Cube game**.
